@@ -1,0 +1,34 @@
+.LiveClasses {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 5px 10px 8px 10px #888888;
+  }
+
+  .LiveText{
+      margin: 20px 80px;
+      color: grey;
+  }
+  
+  .LiveClasses>div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .LiveClasses>div:hover{
+    border-bottom: 4px solid #6b767a;
+  }
+
+  @media(max-width:350px){
+      .LiveClasses{
+        flex-direction: column;
+        width: 36%;
+      }
+  }
